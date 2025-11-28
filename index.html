@@ -5,42 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carissa Cloeller Zefanya</title>
   <link rel="stylesheet" href="./dist/output.css">
-
-  <style>
-    /* Animasi gerakan aurora */
-    @keyframes auroraMove {
-      0% {
-        background-position: 0% 0%;
-      }
-      50% {
-        background-position: 100% 100%;
-      }
-      100% {
-        background-position: 0% 0%;
-      }
-    }
-
-    .aurora-bg {
-      background:
-        radial-gradient(ellipse 80% 60% at 5% 40%, rgba(175, 109, 255, 0.48), transparent 67%),
-        radial-gradient(ellipse 70% 60% at 45% 45%, rgba(255, 100, 180, 0.41), transparent 67%),
-        radial-gradient(ellipse 62% 52% at 83% 76%, rgba(255, 235, 170, 0.44), transparent 63%),
-        radial-gradient(ellipse 60% 48% at 75% 20%, rgba(120, 190, 255, 0.36), transparent 66%),
-        linear-gradient(45deg, #f7eaff 0%, #fde2ea 100%);
-      background-size: 200% 200%;
-      animation: auroraMove 12s ease-in-out infinite;
-    }
-  </style>
-
 </head>
 
-<body class="min-h-screen flex items-center justify-center relative aurora-bg">
+<body 
+  class="min-h-screen flex items-center justify-center relative"
+  style="
+    background:
+      radial-gradient(ellipse 80% 60% at 5% 40%, rgba(175, 109, 255, 0.48), transparent 67%),
+      radial-gradient(ellipse 70% 60% at 45% 45%, rgba(255, 100, 180, 0.41), transparent 67%),
+      radial-gradient(ellipse 62% 52% at 83% 76%, rgba(255, 235, 170, 0.44), transparent 63%),
+      radial-gradient(ellipse 60% 48% at 75% 20%, rgba(120, 190, 255, 0.36), transparent 66%),
+      linear-gradient(45deg, #f7eaff 0%, #fde2ea 100%);
+    background-size: cover;
+  "
+>
 
   <div class="flipbook-container text-center">
     <h1 class="text-3xl font-bold text-pink-600 mb-8">“The Things I Saved for You”</h1>
 
     <a 
-      class="px-6 py-3 bg-pink-500 text-white rounded-xl shadow-md hover:bg-pink-600 transition">
+       class="px-6 py-3 bg-pink-500 text-white rounded-xl shadow-md hover:bg-pink-600 transition">
       This book can only be opened by you at the right and predetermined time.
     </a>
   </div>
