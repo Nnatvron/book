@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./dist/output.css">
 
   <style>
-    /* Background aurora agar tidak pecah */
+    /* Background aurora anti pecah */
     body {
       background: 
         radial-gradient(ellipse 80% 60% at 5% 40%, rgba(175, 109, 255, 0.48), transparent 67%),
@@ -16,7 +16,7 @@
         radial-gradient(ellipse 60% 48% at 75% 20%, rgba(120, 190, 255, 0.36), transparent 66%),
         linear-gradient(45deg, #f7eaff 0%, #fde2ea 100%);
       background-size: cover;
-      background-attachment: fixed; /* penting agar ga pecah di HP */
+      background-attachment: fixed;
       background-repeat: no-repeat;
     }
   </style>
@@ -25,14 +25,17 @@
 <body class="min-h-screen flex items-center justify-center text-center px-6">
 
   <div class="flipbook-container max-w-md mx-auto">
+
+    <!-- Teks full center + warna pink -->
     <h1 class="text-3xl font-bold text-pink-600 mb-8 leading-snug">
       “The Things I Saved for You”
     </h1>
 
     <a 
-       class="block px-6 py-3 bg-pink-500 text-white rounded-xl shadow-md hover:bg-pink-600 transition text-base">
+      class="block px-6 py-3 bg-pink-500 text-white rounded-xl shadow-md hover:bg-pink-600 transition text-base">
       This book can only be opened by you at the right and predetermined time.
     </a>
+
   </div>
 
 </body>
